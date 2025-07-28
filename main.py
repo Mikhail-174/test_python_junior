@@ -17,7 +17,7 @@ def main(arguments = sys.argv):
     report = {"average": False,
               }
     param = None
-    for arg in arguments[2:]:
+    for arg in arguments[1:]:
         if arg in key_word_tuple:
             param = arg
             continue
